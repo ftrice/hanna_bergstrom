@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kasson State Theatre</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("stripes.jpg");
+    }
+
+    .wrapper {
+        width: 1180px;
+        height: 1175px;
+        background-color: white;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 1180px;
+        height: 100px;
+        background-color: lightcoral;
+        color: lightcoral;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p#home, p#showing, p#schedule, p#history, p#contact {
+        display: inline;
+        font-size: 30px;
+        font-family: "Sukhumvit Set", Arial, sans-serif;
+        font-weight: lighter;
+        padding: 50px;
+        line-height: 100px;
+        color: black;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+    .column1 {
+        width: 590px;
+        position: relative;
+        float: left;
+    }
+
+    .column2 {
+        width: 590px;
+        float: right;
+        position: relative;
+    }
+
+    .kasson {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 40pt;
+        margin-left: 15px;
+        position: absolute;
+        top: 25px;
+    }
+
+    .history {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        text-align: center;
+        font-size: 22pt;
+        height: 330px;
+        width: 550px;
+        background-color: lightcoral;
+        margin-left: 20px;
+        position: absolute;
+        top: 125px;
+    }
+
+    .photos {
+        position: absolute;
+        top: 25px;
+        left: 15px;
+    }
+
+    footer {
+        background-color: rgba(240, 128, 128, 0.41);
+        text-align: center;
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: x-large;
+        position: absolute;
+        height: 100px;
+        width: 1180px;
+        top: 1050px;
+    }
+
+</style>
+<body>
+<div class="wrapper">
+    <div id="top"></div>
+    <nav>
+        <a href="home.html"><p id="home">HOME</p></a>
+        <a href="showing.html"><p id="showing">SHOWING</p></a>
+        <a href="schedule.html"><p id="schedule">SCHEDULE</p></a>
+        <a href="history.html"><p id="history">HISTORY</p></a>
+        <a href="contact.html"><p id="contact">CONTACT</p></a>
+
+    </nav>
+    <div class="column1">
+        <div class="kasson">KASSON STATE THEATRE</div>
+        <div class="history">Built in 1937, the historic Kasson State Theatre features dolby digital surround system and
+            newly installed state of the art digital projection. Come catch a movie any day of the week and enjoy the
+            best popcorn around!
+        </div>
+    </div>
+    <!--end of column1-->
+    <div class="column2">
+
+        <div class="photos">
+            <img src="theaterthree.jpg" alt="theatre" width="553px">
+            <img src="theaterone.jpg" alt="theatre" width="275px">
+            <img src="theatertwo.jpg" alt="theatre" width="275px">
+        </div>
+    </div>
+    <!--end of column2-->
+    <footer>
+        <br>
+        Kasson State Theatre | 507-634-6300
+    </footer>
+</div><!--End of wrapper-->
+
+</body>
+</html>

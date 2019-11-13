@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kasson State Theatre</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("stripes.jpg");
+    }
+
+    .wrapper {
+        width: 1180px;
+        height: 1175px;
+        background-color: white;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 1180px;
+        height: 100px;
+        background-color: lightcoral;
+        color: lightcoral;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p#home, p#showing, p#schedule, p#history, p#contact {
+        display: inline;
+        font-size: 30px;
+        font-family: "Sukhumvit Set", Arial, sans-serif;
+        font-weight: lighter;
+        padding: 50px;
+        line-height: 100px;
+        color: black;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+    .column1 {
+        width: 590px;
+        position: relative;
+        float: right;
+    }
+
+    .column2 {
+        width: 590px;
+        float: left;
+        position: relative;
+    }
+
+
+    .logo-container {
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    #kasson {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 70pt;
+        color: #b31716;
+        /*float: right;*/
+        /*display: inline;*/
+        position: absolute;
+        top: 20px;
+        right: 15px;
+    }
+
+    #statetheatre {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 36pt;
+        /*float: right;*/
+        /*display: inline;*/
+        position: absolute;
+        top: 120px;
+        right: 20px;
+    }
+
+    .contact {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        text-align: center;
+        height: 350px;
+        width: 550px;
+        background-color: lightcoral;
+        font-size: 24pt;
+        position: absolute;
+        top: 250px;
+        right: 20px;
+    }
+
+    .map {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    footer {
+        background-color: rgba(240, 128, 128, 0.41);
+        text-align: center;
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: x-large;
+        position: absolute;
+        height: 100px;
+        width: 1180px;
+        top: 1050px;
+    }
+
+</style>
+<body>
+<div class="wrapper">
+    <div id="top"></div>
+    <nav>
+        <a href="home.html"><p id="home">HOME</p></a>
+        <a href="showing.html"><p id="showing">SHOWING</p></a>
+        <a href="schedule.html"><p id="schedule">SCHEDULE</p></a>
+        <a href="history.html"><p id="history">HISTORY</p></a>
+        <a href="contact.html"><p id="contact">CONTACT</p></a>
+
+    </nav>
+    <div class="column2">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="kassonstatetheatrelogo.png" alt="logo" width="200px">
+            </div>
+            <h2 id="kasson">KASSON</h2>
+            <h3 id="statetheatre">STATE THEATRE</h3>
+        </div>
+        <div class="contact">
+            Address:<br>
+            221 West Main Street, Kasson MN. 55944<br><br>
+            Phone:<br>
+            507-634-6300
+        </div>
+    </div>
+    <!--end of column2-->
+    <div class="column1">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11474.380408645275!2d-92.751819!3d44.029761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a7ae55f21fda4e1!2sState%20Theatre!5e0!3m2!1sen!2sus!4v1572144635263!5m2!1sen!2sus"
+                    width="560" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <!--end of column1-->
+    <footer>
+        <br>
+        Kasson State Theatre | 507-634-6300
+    </footer>
+</div><!--End of wrapper-->
+</body>
+</html>

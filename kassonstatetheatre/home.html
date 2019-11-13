@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kasson State Theatre</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("stripes.jpg");
+    }
+
+    .wrapper {
+        width: 1180px;
+        height: 1175px;
+        background-color: white;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 1180px;
+        height: 100px;
+        background-color: lightcoral;
+        color: lightcoral;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p#home, p#showing, p#schedule, p#history, p#contact {
+        display: inline;
+        font-size: 30px;
+        font-family: "Sukhumvit Set", Arial, sans-serif;
+        font-weight: lighter;
+        padding: 50px;
+        line-height: 100px;
+        color: black;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+    .column1 {
+        width: 590px;
+        position: relative;
+        float: left;
+    }
+
+    .column2 {
+        width: 590px;
+        float: right;
+        position: relative;
+    }
+
+    .logo-container {
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    #kasson {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 70pt;
+        color: #b31716;
+        /*float: right;*/
+        /*display: inline;*/
+        position: absolute;
+        top: 20px;
+        right: 15px;
+    }
+
+    #statetheatre {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 36pt;
+        /*float: right;*/
+        /*display: inline;*/
+        position: absolute;
+        top: 120px;
+        right: 20px;
+    }
+
+    .image {
+        position: absolute;
+        top: 250px;
+        right: 20px;
+    }
+
+    #currentshowing {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 24pt;
+    }
+
+    #movie {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 55pt;
+    }
+
+    .box {
+        height: 300px;
+        width: 560px;
+        background-color: lightcoral;
+        text-align: center;
+        position: absolute;
+        top: 40px;
+        right: 25px;
+    }
+
+    .trailer {
+        position: absolute;
+        top: 400px;
+        right: 25px;
+    }
+
+    footer {
+        background-color: rgba(240, 128, 128, 0.41);
+        text-align: center;
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: x-large;
+        position: absolute;
+        height: 100px;
+        width: 1180px;
+        top: 1050px;
+    }
+
+</style>
+<body>
+<div class="wrapper">
+    <nav>
+        <a href="home.html"><p id="home">HOME</p></a>
+        <a href="showing.html"><p id="showing">SHOWING</p></a>
+        <a href="schedule.html"><p id="schedule">SCHEDULE</p></a>
+        <a href="history.html"><p id="history">HISTORY</p></a>
+        <a href="contact.html"><p id="contact">CONTACT</p></a>
+
+    </nav>
+    <div class="column1">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="kassonstatetheatrelogo.png" alt="logo" width="200px">
+            </div>
+            <h2 id="kasson">KASSON</h2>
+            <h3 id="statetheatre">STATE THEATRE</h3>
+        </div>
+        <div class="image">
+            <img src="homeimage.jpg" alt="theatre photo" width="550px">
+        </div>
+    </div>
+    <!--end of column 1-->
+    <div class="column2">
+        <div class="box">
+            <div id="currentshowing">Current Showing:</div>
+            <div id="movie">The Addams Family</div>
+        </div>
+        <div class="trailer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xFCrR3Uw6Mk" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </div><!--end of column 2-->
+    <footer>
+        <br>
+        Kasson State Theatre | 507-634-6300
+    </footer>
+</div><!--End of wrapper-->
+</body>
+</html>

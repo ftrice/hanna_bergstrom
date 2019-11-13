@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kasson State Theatre</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("stripes.jpg");
+    }
+
+    .wrapper {
+        width: 1180px;
+        height: 1175px;
+        background-color: white;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 1180px;
+        height: 100px;
+        background-color: lightcoral;
+        color: lightcoral;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p#home, p#showing, p#schedule, p#history, p#contact {
+        display: inline;
+        font-size: 30px;
+        font-family: "Sukhumvit Set", Arial, sans-serif;
+        font-weight: lighter;
+        padding: 50px;
+        line-height: 100px;
+        color: black;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+    .column1 {
+        width: 590px;
+        position: relative;
+        float: left;
+    }
+
+    .column2 {
+        width: 590px;
+        float: right;
+        position: relative;
+    }
+
+    .kasson {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 40pt;
+        margin-left: 15px;
+        position: absolute;
+        top: 25px;
+    }
+
+    .tickets {
+        width: 500px;
+        height: 170px;
+        background-color: lightcoral;
+        margin: 0 auto;
+        text-align: center;
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 24pt;
+        position: absolute;
+        top: 130px;
+        right: 60px;
+    }
+
+    .dates {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 18pt;
+        text-align: right;
+        position: absolute;
+        top: 330px;
+        right: 300px;
+    }
+
+    .buytickets {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: 18pt;
+        text-align: left;
+        color: #b31716;
+        position: absolute;
+        top: 330px;
+        right: 160px;
+    }
+
+    .movieinfo {
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        width: 280px;
+        height: 400px;
+        background-color: lightcoral;
+        text-align: left;
+        position: absolute;
+        top: 25px;
+    }
+
+    .title {
+        font-size: 24pt;
+        margin-left: 3pt;
+    }
+
+    .subtitle {
+        font-size: 18pt;
+        margin-left: 3pt;
+    }
+
+    .description {
+        font-size: 12pt;
+        margin-left: 3pt;
+    }
+
+    .poster {
+        float: right;
+        position: absolute;
+        top: 25px;
+        right: 30px;
+    }
+
+    .trailer {
+        position: absolute;
+        top: 450px;
+    }
+
+    * {
+        box-sizing: border-box
+    }
+
+    footer {
+        background-color: rgba(240, 128, 128, 0.41);
+        text-align: center;
+        font-family: "Sukhumvit Set";
+        font-weight: lighter;
+        font-size: x-large;
+        position: absolute;
+        height: 100px;
+        width: 1180px;
+        top: 1050px;
+    }
+
+</style>
+<body>
+<div class="wrapper">
+    <div id="top"></div>
+    <nav>
+        <a href="home.html"><p id="home">HOME</p></a>
+        <a href="showing.html"><p id="showing">SHOWING</p></a>
+        <a href="schedule.html"><p id="schedule">SCHEDULE</p></a>
+        <a href="history.html"><p id="history">HISTORY</p></a>
+        <a href="contact.html"><p id="contact">CONTACT</p></a>
+
+    </nav>
+
+    <div class="column1">
+        <div class="kasson">KASSON STATE THEATRE</div>
+        <div class="tickets">
+            TICKETS <br>Adult $4 <br>Children $6
+        </div>
+        <div class="dates">
+            Fri Oct 11: 4 & 7pm<br>
+            Sat Oct 12: 4 & 7pm<br>
+            Sun Oct 13: 4 & 6pm<br>
+            Mon Oct 14: 6pm<br>
+            Tues Oct 15: 6pm<br>
+            Wed Oct 16: 6pm<br>
+            Thurs Oct 17: 6pm<br>
+        </div>
+        <div class="buytickets">
+            Buy Tickets<br>
+            Buy Tickets<br>
+            Buy Tickets<br>
+            Buy Tickets<br>
+            Buy Tickets<br>
+            Buy Tickets<br>
+            Buy Tickets<br>
+        </div>
+    </div>
+    <!--end of column1-->
+    <div class="column2">
+        <div class="movieinfo">
+            <div class="title">
+                The Addams Family
+            </div>
+            <div class="subtitle">
+                PG<br>
+                1 hr 27 min<br>
+                Animation, Comedy, Family
+            </div>
+            <div class="description">
+                An animated version of Charles Addams' series of cartoons about a peculiar, ghoulish family.
+            </div>
+
+        </div>
+        <div class="poster">
+            <img src="addamsfamily.jpg"
+                 alt="movie poster" height=400px>
+        </div>
+        <div class="trailer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xFCrR3Uw6Mk" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+    <!--end of column2-->
+    <footer>
+        <br>
+        Kasson State Theatre | 507-634-6300
+    </footer>
+</div><!--End of wrapper-->
+
+
+</body>
+</html>
